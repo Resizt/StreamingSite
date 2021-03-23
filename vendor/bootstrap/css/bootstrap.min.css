@@ -888,7 +888,8 @@ pre code {
   .row-cols-md-4 > * {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
-    max-width: 25%
+    max-width: 25%;
+	  
   }
   .row-cols-md-5 > * {
     -ms-flex: 0 0 20%;
@@ -3885,14 +3886,16 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   padding: 1.25rem
 }
 .card-title {
-  margin-bottom: .75rem
+  margin-bottom: .75rem;
+	color: #000000;
 }
 .card-subtitle {
   margin-top: -.375rem;
   margin-bottom: 0
 }
-.card-text:last-child {
-  margin-bottom: 0
+.card-text {
+  margin-bottom: 0;
+color: #000000;
 }
 .card-link:hover {
   text-decoration: none
